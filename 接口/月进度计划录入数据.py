@@ -6,7 +6,7 @@ session_headers = {
     'access-token': '2ff7MQ0GpGN/EowbjrlQoxhtMIJf+08tpCi73eE6QNbHakgEuIxTpLbgy5zDe7PK1brCJA',
 }
 form_data = {
-    "plan_id":187,
+    "plan_id":195,
     "test_info[0][test_name]":"打扫地板",
     "test_info[0][plan_test_time]":"2020-02-14"
 }

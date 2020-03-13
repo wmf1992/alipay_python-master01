@@ -20,6 +20,7 @@ python2.7编写，使用目前较为流行的UI自动化测试工具Appium，采
 
 3.效果展示图
 -------
+
 整体结构
 ###
 ![](https://github.com/hanyguoguo/appiumPythonPO/blob/master/img/tree.png)

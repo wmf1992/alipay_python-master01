@@ -1,17 +1,17 @@
 import requests
 import time
 
-session_url = 'http://wisdom_project.yxsoft.net/front/quality_check_approval/check'
+session_url = 'http://wisdom_project.yxsoft.net/api/quality_check_approval/check'
 
 session_headers = [
     {
     'Content-Type': 'application/x-www-form-urlencoded',
     'access-token': 'd8f4p5uf0wHaqcPvRqzOWwCPwV36TQOX+9ONmY4qIR+5tjmcKU3cSopvOIk85IIrzaAKB78'
     },
-    # {
-    # 'Content-Type': 'application/x-www-form-urlencoded',
-    # 'access-token': '824705R+n8tFLOnsQ5/UfQT1CqPTGQwva58y0VZq5bi98h2+3JnNEuGdkiBF5dNDVk5kyPw'
-    # },
+    {
+    'Content-Type': 'application/x-www-form-urlencoded',
+    'access-token': 'bfcey7919nPJEEjjlXjUufo3k1unipdrniv8bwuUEXxI0bTLNlCp9i0iAUXkX3VHpwQMIvLp'
+    },
     # {
     # 'Content-Type': 'application/x-www-form-urlencoded',
     # 'access-token': '9aa3XwD6DSteYR6g1Xvv35VVqJN20fIDCEbJG4IEzR5gZAOmPtwLfrjmMTto6Sp9lTCh6a6C'
@@ -35,7 +35,7 @@ form_data = {
     "quality_check_reback": 1,
     "check": 1,
     "goodness_score": 90,
-    "quality_check_id": 134
+    "quality_check_id": 172
 }
 
 
